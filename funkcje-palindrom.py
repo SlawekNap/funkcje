@@ -1,5 +1,5 @@
 
-def sprawdza_czy_palindrom(x):
+def check_palindrom(x):
     """ 
     Funkcja sprawdza czy dany zrot, 
     słowo zestaw cyfr itp. jest palidormem 
@@ -11,13 +11,11 @@ def sprawdza_czy_palindrom(x):
 
     x = input("Wpisz zwrot : ")
 
-    odwroc = x[::-1]
+    reverse = x[::-1]
 
-    if( x == odwroc ):
-        print ("TRUE - yes it is palindrome")
-    else:
-        print ("FALSE - it is not palindrome")
-
-sprawdza_czy_palindrom('')
-
-print("Przepraszam za spoźnienie z zadaniem, ale wyjechałem na tydzień i nie spodziewałem sie zę tam gdzie będę nie będzie internetu, teraz postaram się nadgonić materiał")
+    if( x == reverse ):
+        print(x == reverse) 
+    else :   
+        print(x == reverse) 
+   
+check_palindrom('')
