@@ -9,9 +9,7 @@ def check_palindrom(x):
     """
 
     x = input("Wpisz zwrot : ")
-    if (x == x[::-1]):
-        return True
-    return False  
+    return x == x[::-1] 
 
 result = check_palindrom("kajak")
 print(result)
