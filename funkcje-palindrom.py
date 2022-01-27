@@ -13,6 +13,6 @@ def check_palindrom(x):
         return True
     return False  
 
-result = check_palindrom("")
+result = check_palindrom("kajak")
 print(result)
 
