@@ -1,15 +1,11 @@
-def check_palindrom(kajak):
-    """ 
-    Funkcja sprawdza czy dany zrot, 
+def check_palindrom(x):
+    """ Funkcja sprawdza czy dany zwrot, 
     słowo zestaw cyfr itp. jest palidormem 
     tzn. czy dany zestaw znaków pisany na wspak
     jest taki sam jak pisany oryginalnie np
-    kajak = kajak od tyłu
-    12sas21 = 12sas21 """
+    kajak = kajak od tyłu  12sas21 = 12sas21 """
 
-    x = input("Wpisz zwrot : ")
     return x == x[::-1] 
-
-result = check_palindrom("")
+result = check_palindrom("ada")
 print(result)
 
