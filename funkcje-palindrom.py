@@ -1,4 +1,3 @@
-
 def check_palindrom(x):
     """ 
     Funkcja sprawdza czy dany zrot, 
@@ -10,12 +9,10 @@ def check_palindrom(x):
     """
 
     x = input("Wpisz zwrot : ")
+    if (x == x[::-1]):
+        print("True")
+    else:
+        print("False")    
 
-    reverse = x[::-1]
+check_palindrom("")
 
-    if( x == reverse ):
-        print(x == reverse) 
-    else :   
-        print(x == reverse) 
-   
-check_palindrom('')
